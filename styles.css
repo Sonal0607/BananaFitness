@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Madimi One', sans-serif; /* Use Madimi One font */
+}
+
+.container {
+    width: 80%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color:rgb(255, 247, 137);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+  
+.top_images {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+}
+  
+.top_image {
+    flex: 0 0 20%; /* Set flex basis to distribute space equally */
+}
+  
+.top_image img {
+    width: 100%;
+    height: auto;
+}
+
+.logo_container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 50px;
+}
+
+.logo {
+    margin-top: -100px;
+    height: 300px;
+}
+  
+.logo_container img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+}
+
+.logo_container h1 {
+    font-size: 72px; /* Adjust the font size */
+    letter-spacing: 2px; /* Add space between letters */
+    line-height: 1.2; /* Set line height for readability */
+}
+.left_single_container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    padding-top: 30px;
+}
+
+.right_single_container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    padding-top: 30px;
+}
+
+.video_holder{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    padding: 20px auto;
+    border: 5px solid white; /* Adds a white border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}
+
+.text_holder {
+    align-items:first baseline;
+    margin-left:50px;
+    margin-right:50px;
+    max-height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text_holder h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+}
+.text_holder button{
+    padding: 15px 25px; /* Increased padding to make the button bigger */
+    background-color:rgb(72, 126, 214); /* Set to a blue color */
+    color: white; /* Button text color */
+    border: none; /* Removes the default border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Increases font size for better visibility */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+.orange {
+    color: rgb(251, 216, 0);
+}
+
+.blue {
+    color: rgb(72, 126, 214);
+}
+
+.heading {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    background-color:rgb(72, 126, 214);
+    color: rgb(251, 216, 0);
+}
+.heading h1{
+    font-size: 72px; /* Adjust the font size */
+    letter-spacing: 2px; /* Add space between letters */
+    line-height: 1.2; /* Set line height for readability */
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+.left_single_container img {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    padding: 20px auto;
+    border: 5px solid white; /* Adds a white border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}
+
+.right_single_container img {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    padding: 20px auto;
+    border: 5px solid white; /* Adds a white border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}

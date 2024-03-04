@@ -1,89 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumpstart Your Fitness Journey</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        .header {
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .feature {
-            margin-bottom: 30px;
-        }
-
-        .feature img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        video {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banana !!!! Fitness</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap">
 </head>
-
 <body>
-    <div class="header">
-        <h1>Jumpstart Your Fitness Journey</h1>
-        <p>Get Your Free Workout Plan & Nutrition Guide</p>
-    </div>
-
     <div class="container">
-        <div class="feature">
-            <h2>HIIT exercises</h2>
-            <video controls autoplay loop>
-                <source src="HIIT.mp4" type="video/mp4">
-            </video>
+        <div class="top_images">
+            <div class="top_image"><img src="images/meditation.png" alt="Meditation"></div>
+            <div class="top_image"><img src="images/yoga.png" alt="Yoga"></div>
+            <div class="top_image"><img src="images/pullup.png" alt="Pullup"></div>
+            <div class="top_image"><img src="images/lifting.png" alt="Lifting"></div>
+            <div class="top_image"><img src="images/eating.png" alt="Eating"></div>
         </div>
-        <div class="feature">
-            <h2>Meditation</h2>
-            <video controls autoplay loop>
-                <source src="Meditation.mp4" type="video/mp4">
-            </video>
+        <div class="logo_container">
+            <div class="blue"><h1> Start &nbsp</h1></div>
+            <div class="blue"><h1> Your &nbsp</h1></div>
+            <div class="logo"><img src="images/logo.png" alt="Logo"/></div>
+            <div class="blue"><h1> Fitness &nbsp</h1></div>
+            <div class="blue"><h1> Journey &nbsp</h1></div>
         </div>
-        <div class="feature">
-            <h2>Count your calories</h2>
-            <video controls autoplay loop>
-                <source src="CaloriesCount.mp4" type="video/mp4">
-            </video>
+        <div class="left_single_container">
+            <div style="margin-left: 50px;"> 
+                <video autoplay muted loop controls class="video_holder">
+                <source src="videos/Meditation.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="text_holder"> 
+                <h2>Elevate your mind</h2>
+                <p>Mindfulness is a journey inward. It's about being present with your thoughts and emotions, without resisting or clinging. Through mindful awareness, you cultivate stress relief, sharpened focus, and a deeper understanding of yourself and the world around you.</p>
+                <p>Our expert guidance helps you easily integrate mindfulness into your daily routine, leading to real-world benefits and a happier, healthier life.</p>
+            </div>
         </div>
-        <div class="feature">
-            <h2>Food Recipes</h2>
-            <video controls autoplay loop>
-                <img src="Recipies.webp" alt="Food Recipes">
-            </video>
+        <div class="right_single_container">
+            <div class="text_holder"> 
+                <h2>Strengthen your body</h2>
+                <p>Find the perfect fit for your fitness journey! Our workout program offers diverse classes to match your goals and experience level.  Blast calories with HIIT, build strength, or find balance with yoga and Pilates – the choice is yours.</p>
+                <p>Join us to reach your fitness goals with personalized support, experience the fun and variety of diverse workouts and discover a community that motivates and inspires</p>
+                <a href="workouts.html" style="text-decoration: none;">
+                    <button>Learn More</button>
+                </a>
+            </div>
+            <div style="margin-right: 50px;"> 
+                <video autoplay muted loop controls class="video_holder">
+                <source src="videos/HIIT.mov" type="video/mp4">
+              </video>
+            </div>
+        </div>
+        <div class="left_single_container">
+            <div style="margin-left: 50px;"> 
+                <video autoplay muted loop controls class="video_holder">
+                <source src="videos/CaloriesCount.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="text_holder"> 
+                <h2>Satisfy your soul</h2>
+                <p>Take control of your health with our personalized nutrition program. We'll help you understand how food impacts your body and create meal plans tailored to your weight loss, muscle building, or overall wellness goals.  Our focus on whole, nutritious foods empowers you to make healthy choices.</p>
+                <p>Join us to learn portion control and sustainable eating habits and to make healthy food at home.</p>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
